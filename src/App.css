@@ -1,0 +1,11 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper span {
+    display: block;
+    padding: 10px;
+}
